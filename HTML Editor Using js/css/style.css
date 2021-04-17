@@ -1,0 +1,79 @@
+body{
+    padding:20px;
+    margin:0px;
+    font-size:18px;
+    background-color:#8080B3;
+}
+/**************************** fonts ****************************/
+.RocknRoll_One{
+    font-family: 'RocknRoll One', 'sans-serif';
+}
+.DotGothic16{
+    font-family: 'DotGothic16','sans-serif';
+}
+.rem_1{
+    font-size:1rem;
+}
+.rem_3{
+    font-size:2rem;
+}
+.rem_4{
+    font-size:3rem;
+}
+/***************************************************************/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+h1{
+    color:#09093B;
+    text-shadow:.5px .5px 1px #09093B;
+}
+h2{
+    color:#343477;
+}
+a{
+    text-decoration: none;
+    color:#343477;
+}
+a:hover{
+    text-decoration: none;
+    color :#09093B;
+}
+h1:hover , h2:hover ,a:hover {
+    cursor: pointer;
+}
+h1::selection , h2::selection , h6::selection , a::selection{
+    background-color:white !important;
+}
+.box{
+    background-color:#343477;
+    opacity: .5;
+    color:white;
+    padding:10px;
+    box-shadow: 2px 2px 3px #343477;
+    height: 75vh;
+    border-radius: 20px ;
+}
+.box textarea{
+    background-color:transparent;
+    color:white;
+    resize: none;
+    outline: none;
+}
+.box textarea:focus{
+    border-color:#09093B;
+    background-color:white;
+}
+.box iframe{
+    height:100%;
+    background-color:white;
+    border-radius: 20px;
+    color:#09093B !important;
+    text-shadow:.5px .5px 1px #09093B !important;
+    border:#09093B;
+}
+/***********************************************/

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+
+    <!-- <script src="js/jquery-3.5.1.slim.min.js"></script> -->
+    <!--<script src="js/popper.min.js"></script> -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    
+</head>
+<body class="RocknRoll_One">
+<!---------------------------------------------------------------------->
+<header class="container py-1">
+    <section class="row">
+        <h1 class="col-sm-12 col-md-7 rem_4">ONLINE EDITOR FOR : </h1>
+        <h2 class="col-sm-12 col-md-5 rem_3 pt-3 text-sm-center text-lg-left"><a href="" class="typewrite" data-period="2000" data-type='[ "HTML.", " CSS.", "JAVASCRIPT." , "I HOPE YOULL LIKE IT ! " ]'>
+            <span class="wrap"></span>
+          </a> </h2>
+    </section>
+</header>
+<section class="container py-2">
+    <section class="row">
+        <section class="box col-sm-12 col-md-5 py-1 code-area">
+            <textarea id="htmlCode" placeholder="HTML CODE HERE" class="col-12 py-5 m-0 btn text-left htmlCode" oninput="compile()"></textarea>
+            <textarea id="cssCode" placeholder="CSS CODE HERE"  class="col-12 py-5 m-0 btn text-left cssCode" oninput="compile()"></textarea>
+            <textarea id="jsCode" placeholder="JAVASCRIPT CODE HERE"  class="col-12 py-5 m-0 btn text-left jsCode" oninput="compile()"></textarea>
+        </section>
+        <section class="box col-sm-12 col-md-6 offset-lg-1 py-1 previewArea">
+            <iframe id="code" class="col-12 preview_window"></iframe>
+        </section>
+    </section>
+</section>
+<section class="developed container">
+    <section class="row">
+        <h6 class="text-center lead col-12 mt-2">
+            <a href="" class="typewrite" data-period="2000" data-type='[ "Developed By :", "Alaa Odeh ." ]'>
+                <span class="wrap"></span>
+              </a></h6>
+    </section>
+</section>
+<!----------------------------------------------------------------------->
+<script type="text/javascript" src="js/js.js"></script>
+</body>
+</html>
